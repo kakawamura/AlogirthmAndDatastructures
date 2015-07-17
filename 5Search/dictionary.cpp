@@ -21,7 +21,7 @@ int getCharNumber(char c) {
             return 0;
     }
 }
-//TODO 10の位とか１のくらいの考慮ができてない！！！
+
 int getKey(char c[]) {
     int key = 0, p = 1;
     for(int i = 0; i < strlen(c); i++) {
