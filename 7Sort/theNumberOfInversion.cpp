@@ -47,7 +47,6 @@ void mergeSort(int left, int right) {
         mergeSort(left, mid);
         mergeSort(mid, right);
         merge(left, mid, right);
-
     }
 }
 
@@ -58,7 +57,6 @@ int main() {
     }
 
     mergeSort(0, n);
-
     printf("%lld\n", ans);
 
     return 0;
